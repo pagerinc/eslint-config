@@ -1,0 +1,31 @@
+{
+  "name": "@pager/eslint-config",
+  "version": "0.1.0",
+  "description": "Pager eslint configuration",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pagerinc/eslint-config.git"
+  },
+  "author": "Tim Costa <tim.costa@pager.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pagerinc/eslint-config/issues"
+  },
+  "homepage": "https://github.com/pagerinc/eslint-config#readme",
+  "peerDependencies": {
+    "@hapi/eslint-config-hapi": "13.x",
+    "@hapi/eslint-plugin-hapi": "4.x",
+    "eslint": "6.x",
+    "eslint-plugin-import": "2.x"
+  },
+  "devDependencies": {
+    "@hapi/eslint-config-hapi": "13.x",
+    "@hapi/eslint-plugin-hapi": "4.x",
+    "eslint": "6.x",
+    "eslint-plugin-import": "2.x"
+  }
+}
