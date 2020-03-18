@@ -1,5 +1,5 @@
 steps:
-- id: npm-ci
+- id: npm-install
   name: node:12
   secretEnv: ['NPM_TOKEN']
   entrypoint: npm
