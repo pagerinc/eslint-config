@@ -14,7 +14,7 @@ module.exports = {
     extends: [
         '@pager/eslint-config'
     ],
-    rules: {}
+    rules: {},
 };
 
 ```
