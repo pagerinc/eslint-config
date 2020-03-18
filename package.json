@@ -10,8 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/pagerinc/eslint-config.git"
   },
-  "author": "Tim Costa <tim.costa@pager.com>",
-  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/pagerinc/eslint-config/issues"
   },
