@@ -3,7 +3,7 @@ steps:
   name: node:12
   secretEnv: ['NPM_TOKEN']
   entrypoint: npm
-  args: ['ci', '--quiet']
+  args: ['i', '--quiet']
 
 - id: npm-publish
   name: 'gcr.io/$PROJECT_ID/cloudbuilders/npm:6.13.4'
