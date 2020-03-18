@@ -16,11 +16,13 @@
     "url": "https://github.com/pagerinc/eslint-config/issues"
   },
   "homepage": "https://github.com/pagerinc/eslint-config#readme",
-  "peerDependencies": {
+  "dependencies": {
     "@hapi/eslint-config-hapi": "13.x",
     "@hapi/eslint-plugin-hapi": "4.x",
-    "eslint": "6.x",
     "eslint-plugin-import": "2.x"
+  },
+  "peerDependencies": {
+    "eslint": "6.x"
   },
   "devDependencies": {
     "@hapi/eslint-config-hapi": "13.x",
