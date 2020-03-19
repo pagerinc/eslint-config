@@ -5,6 +5,11 @@ steps:
   entrypoint: npm
   args: ['i', '--quiet']
 
+- id: lint
+  name: node:12
+  entrypoint: npx
+  args: ['eslint', '.']
+
 - id: npm-publish
   name: 'gcr.io/$PROJECT_ID/cloudbuilders/npm:6.13.4'
   secretEnv: ['NPM_TOKEN']
