@@ -8,7 +8,7 @@ module.exports = {
         'import',
     ],
     parserOptions: {
-        ecmaVersion: 9
+        ecmaVersion: 9,
     },
     rules: {
         'no-console': 2,
@@ -25,7 +25,7 @@ module.exports = {
                 'objects': 'always-multiline',
                 'imports': 'never',
                 'exports': 'never',
-                'functions': 'never'
+                'functions': 'never',
             },
         ],
     },
