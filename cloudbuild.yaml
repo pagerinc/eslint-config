@@ -5,10 +5,10 @@ steps:
   entrypoint: npm
   args: ['i', '--quiet']
 
-- id: lint
+- id: test
   name: node:12
-  entrypoint: npx
-  args: ['eslint', '.']
+  entrypoint: npm
+  args: ['test']
 
 - id: npm-publish
   name: 'gcr.io/$PROJECT_ID/cloudbuilders/npm:6.13.4'

@@ -4,7 +4,7 @@
   "description": "Pager eslint configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -33,7 +33,10 @@
   "renovate": {
     "extends": [
       "github>pagerinc/renovate-config"
-    ]
+    ],
+    "lockFileMaintenance": {
+      "enabled": false
+    }
   },
   "release": {
     "extends": "@pager/semantic-release-config"
