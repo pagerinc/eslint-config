@@ -23,11 +23,8 @@
     "eslint": "6.x"
   },
   "devDependencies": {
-    "@hapi/eslint-config-hapi": "13.x",
-    "@hapi/eslint-plugin-hapi": "4.x",
     "@pager/semantic-release-config": "1.x",
     "eslint": "6.x",
-    "eslint-plugin-import": "2.x",
     "semantic-release": "17.x"
   },
   "renovate": {
