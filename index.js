@@ -2,13 +2,13 @@
 
 module.exports = {
     extends: [
-        '@hapi/eslint-config-hapi',
+        '@hapi/eslint-config-hapi'
     ],
     plugins: [
-        'import',
+        'import'
     ],
     parserOptions: {
-        ecmaVersion: 9,
+        ecmaVersion: 9
     },
     rules: {
         'no-console': 2,
@@ -16,18 +16,8 @@ module.exports = {
             'error',
             {
                 'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
-                'newlines-between': 'always',
-            },
-        ],
-        'comma-dangle': [
-            'error',
-            {
-                'arrays': 'always-multiline',
-                'objects': 'always-multiline',
-                'imports': 'never',
-                'exports': 'never',
-                'functions': 'never',
-            },
-        ],
-    },
+                'newlines-between': 'always'
+            }
+        ]
+    }
 };
