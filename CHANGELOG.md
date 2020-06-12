@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/pagerinc/eslint-config/compare/v1.0.4...v1.0.5) (2020-06-12)
+
+
+### Bug Fixes
+
+* turn off require-await ([#13](https://github.com/pagerinc/eslint-config/issues/13)) ([b92f434](https://github.com/pagerinc/eslint-config/commit/b92f434737cfa9bf7ba57b6a148761a4d707a2ce))
+
 ## [1.0.4](https://github.com/pagerinc/eslint-config/compare/v1.0.3...v1.0.4) (2020-03-31)
 
 
