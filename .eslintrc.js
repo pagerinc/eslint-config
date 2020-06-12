@@ -1,6 +1,8 @@
+'use strict';
+
 module.exports = {
     extends: [
-        './index',
+        './index'
     ].map(require.resolve),
     rules: {}
 };
