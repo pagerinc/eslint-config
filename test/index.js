@@ -1,5 +1,10 @@
 'use strict';
 
+const resolveFn = () => {
+
+    return asyncFn();
+};
+
 const asyncFn = async () => {
 
     await Promise.resolve();
@@ -15,7 +20,7 @@ const testAsyncFn = async (throwVar) => {
     }
 
     // Returns Promise
-    return asyncFn();
+    return resolveFn();
 };
 
 testAsyncFn();
