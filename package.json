@@ -20,11 +20,11 @@
     "eslint-plugin-import": "2.x"
   },
   "peerDependencies": {
-    "eslint": "6.x"
+    "eslint": "7.x"
   },
   "devDependencies": {
     "@pager/semantic-release-config": "1.x",
-    "eslint": "6.x",
+    "eslint": "7.x",
     "semantic-release": "17.x"
   },
   "renovate": {

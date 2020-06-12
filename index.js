@@ -11,13 +11,14 @@ module.exports = {
         ecmaVersion: 9
     },
     rules: {
-        'no-console': 2,
+        'no-console': 'error',
         'import/order': [
             'error',
             {
                 'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
                 'newlines-between': 'always'
             }
-        ]
+        ],
+        'require-await': 'off'
     }
 };
