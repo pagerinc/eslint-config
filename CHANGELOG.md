@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/pagerinc/eslint-config/compare/v1.0.5...v1.1.0) (2020-07-10)
+
+
+### Features
+
+* convert to circleci ([#15](https://github.com/pagerinc/eslint-config/issues/15)) ([9f54880](https://github.com/pagerinc/eslint-config/commit/9f5488010db1e4945f429a9e8cdfb672d5a00039))
+
 ## [1.0.5](https://github.com/pagerinc/eslint-config/compare/v1.0.4...v1.0.5) (2020-06-12)
 
 
