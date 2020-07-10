@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/pagerinc/eslint-config/compare/v1.1.0...v1.1.1) (2020-07-10)
+
+
+### Bug Fixes
+
+* eslint version ([e91f036](https://github.com/pagerinc/eslint-config/commit/e91f0367c04122db213ec50a968c9f3d761c53cf))
+
 # [1.1.0](https://github.com/pagerinc/eslint-config/compare/v1.0.5...v1.1.0) (2020-07-10)
 
 
