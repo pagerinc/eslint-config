@@ -5,7 +5,7 @@ ESLint configuration extending the hapi eslint configuration
 
 First, run the following to add the required packages:
 ```bash
-npm install --save-dev eslint@7.x @pager/eslint-config
+npm install --save-dev eslint@7 @pager/eslint-config
 ```
 
 Next, create a `.eslintrc.js` file in your repository root containing
