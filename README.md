@@ -12,7 +12,7 @@ Next, create a `.eslintrc.js` file in your repository root containing
 ```javascript
 module.exports = {
     extends: [
-        '@pager/eslint-config',
+        '@pager/eslint-config'
     ],
     rules: {}
 };
