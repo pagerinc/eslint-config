@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/pagerinc/eslint-config/compare/v1.1.2...v1.2.0) (2020-12-09)
+
+
+### Features
+
+* ecmaVersion 2020 ([6cb2095](https://github.com/pagerinc/eslint-config/commit/6cb2095d5d596de1a01ff599f7ae1bb436d29e92))
+
 ## [1.1.2](https://github.com/pagerinc/eslint-config/compare/v1.1.1...v1.1.2) (2020-09-07)
 
 ## [1.1.1](https://github.com/pagerinc/eslint-config/compare/v1.1.0...v1.1.1) (2020-07-10)
