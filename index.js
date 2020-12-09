@@ -8,7 +8,7 @@ module.exports = {
         'import'
     ],
     parserOptions: {
-        ecmaVersion: 9
+        ecmaVersion: 2020
     },
     rules: {
         'no-console': 'error',
